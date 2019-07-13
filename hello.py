@@ -7,7 +7,7 @@ def incorrect():
 response = input('''Who\'s there?
 ''')
 
-if input == "Hi, it\'s me.":
+if response == "Hi, it's me.":
     hello()
 else:
     incorrect()
