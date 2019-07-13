@@ -12,8 +12,7 @@ response = input('''Who\'s there?
 
 if response == "Hi, it's me.":
     hello()
+elif response == "It's Dave man. I got the stuff.":
+    Dave()
 else:
     incorrect()
-
-if response == "It's Dave man. I got the stuff.":
-    Dave()
